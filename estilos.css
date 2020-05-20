@@ -1,0 +1,75 @@
+/*soft reset css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Aula inicial :D */
+body {
+    /* background: #f8bbd8; */
+     background-color: #79145b83;
+     background-size: auto 100vh;
+     font-family: Arial;
+     height: 100vh;
+   }
+   /*.menu {
+     background-color: #f8bbd8;
+   }  o ponto é para quando tiver class (ou seja, vários em uma coisa)
+   se for id (Algo único para uma tag), usar o #*/
+header {
+  height: 100vh;
+  display: flex; /*só funcionam por causa desse*/
+  justify-content: center;
+  align-items: center;
+}
+   .menu {
+     background-color: white;
+     position: fixed; /*fixa no eixo z, em cima de tudo*/
+     width: 100vw;
+     top: 0;
+   }
+
+   }
+   a {
+     color: teal;
+     text-decoration: none; /*tira o sublinhado que vem junto*/
+   } 
+   
+   a:hover {
+   
+     text-decoration: underline;
+   } /*pseudoclasse para quando o mouse passar por cima*/
+   
+   .menu ul {
+     /*força todo mundo virar coluna*/
+     display: flex;
+     /*espaça todos space-between, só nas ques estão no meio; space-around fica proporcional
+     só funciona em conjunto com outra*/
+     justify-content: space-around;
+   }
+   
+   .menu li {
+     /*todos os listen item dentro do menu*/
+     list-style: none;
+   }
+
+   .menu a {
+
+  display: block;
+  padding: 10px 20px;
+
+   }
+   
+   .site-subtitle,
+   .site-title{
+     color: whitesmoke;
+     text-align: center;
+   }
+   
+   .site-subtitle{
+     font-style: italic;
+   }
+
+   .img-portfolio{
+     height: 180px;
+   }
